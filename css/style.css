@@ -1,0 +1,134 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navigation starts */
+
+#mynavigation{
+    background: none;
+    border: 0;
+    position: absolute;
+    width: 100%;
+    top: 2rem;
+}
+
+#mynavigation .navbar-header a{
+    color: #fff;
+}
+
+#mynavigation ul li a{
+    color: #fff;
+}
+
+/* Navigation ends */
+/* Banner starts */
+
+.banner{
+    background: url(../images/banneredit.jpg);
+    width: 100%;
+    height: 100%;
+    padding-top: 17rem;
+    
+}
+
+.banner h2, .banner h1{
+    color: #fff;
+}
+
+.banner h1{
+    margin-bottom: 6rem;
+}
+
+.banner span{
+    color: #6cc091;
+    font-size: 3.5rem;
+}
+
+.banner p{
+    color:#9a9a9a;
+}
+
+button{
+    background: none;
+    border-radius: 30px;
+    border: 1px solid #6cc091;
+    color: #6cc091;
+    margin: 3rem 0 4rem;
+    padding: 1rem 3.6rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.add-border{
+    border-left: 1px solid #dbdbdb;
+    border-right: 1px solid #dbdbdb;
+}
+/* Banner ends */
+
+/* Middle-section starts */
+
+.middle-section{
+    padding: 5rem 0;
+}
+
+.middle-section img{
+    border-radius: 100%;
+    width: 30%;
+}
+
+.middle-section h2{
+    width: 40%;
+    margin: 2rem auto;
+}
+
+.middle-section p{
+    width: 70%;
+    margin: 0 auto;
+    color: #9a9a9a;
+}
+
+/* Middle-section ends */
+
+/* Footer starts */
+
+footer{
+    padding: 5rem 0;
+    background-color: #6cc091;
+    color: #fff;
+}
+
+footer button{
+    color: #fff;
+    border: 1px solid #fff;
+    margin-bottom: 3rem;
+}
+
+form{
+    margin-top: 3rem;
+}
+
+form input,textarea{
+    background: none !important;
+    border: 1px solid #fff !important;
+}
+
+::placeholder{
+    color: #fff !important;
+}
+
+/* Footer ends */
+
+
+/* Media Queries */
+
+@media only screen and (max-width:992px){
+    .banner h1{
+        font-size: 2.8rem;
+    }
+
+    .banner h2{
+        font-size: 2rem;
+    }
+}
