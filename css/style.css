@@ -149,4 +149,12 @@ form input,textarea{
     .add-border{
         border: none;
     }
+
+    .middle-section h2{
+        width: 80%;
+    }
+
+    .middle-section p{
+        width: 100%;
+    }
 }
