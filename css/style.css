@@ -126,9 +126,14 @@ form input,textarea{
 @media only screen and (max-width:992px){
     .banner h1{
         font-size: 2.8rem;
+        margin-bottom: 3.5rem;
     }
 
     .banner h2{
         font-size: 2rem;
+    }
+
+    .banner button{
+        margin-top: 1.5rem;
     }
 }
